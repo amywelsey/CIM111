@@ -1,0 +1,29 @@
+a:link {
+  text-decoration: none;
+  font-weight:     bold;
+  color:           blue;
+}
+
+a:visited {
+  text-decoration: none;
+  font-weight:     bold;
+  color:           red
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight:     bold;
+  color:            black;
+}
+
+#Header {
+  background-color: lightblue;
+  font-family: Optima, sans-serif;
+  padding: 10px;
+  text-align: center;
+}
+
+table {
+  border: solid;
+  border width: 3px;
+}
