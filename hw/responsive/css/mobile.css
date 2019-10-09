@@ -8,3 +8,31 @@ body {
         margin: 2%, 4%;
     }
 }
+
+nav a {
+    display: inline-block;
+}
+
+
+.grid-1-container {
+  display: grid;
+  grid-template-areas:
+    "the-college-dropout-heading ."
+    "the-college-dropout-pic the-college-dropout-info";
+  grid-gap: 40px;
+  max-width: 630px;
+  margin: 0 auto
+}
+
+.the-college-dropout {
+  grid-area: the-college-dropout-heading;
+}
+
+.grid-1-picture {
+  grid-area: the-college-dropout-pic;
+  height: 200px;
+}
+
+.paragraph1 {
+    grid-area: the-college-dropout-info;
+}

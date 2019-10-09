@@ -4,3 +4,223 @@
       margin: 1%, 2%;
   }
 }
+
+nav a {
+    display: inline-block;
+}
+
+.grid-1-container {
+  display: grid;
+  grid-template-areas:
+    "the-college-dropout-heading ."
+    "the-college-dropout-pic the-college-dropout-info";
+  grid-gap: 40px;
+  max-width: 630px;
+  margin: 0 auto
+}
+
+.the-college-dropout {
+  grid-area: the-college-dropout-heading;
+}
+
+.grid-1-picture {
+  grid-area: the-college-dropout-pic;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.paragraph1 {
+    grid-area: the-college-dropout-info;
+}
+
+.grid-2-container {
+  display: grid;
+  grid-template-areas:
+    "late-registration-heading ."
+    "late-registration-pic late-registration-info";
+  grid-gap: 40px;
+  max-width: 630px;
+  margin: 0 auto
+}
+
+.late-registration {
+  grid-area: late-registration-heading;
+}
+
+.grid-2-picture {
+  grid-area: late-registration-pic;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.paragraph2 {
+    grid-area: late-registration-info;
+}
+
+.grid-3-container {
+  display: grid;
+  grid-template-areas:
+    "graduation-heading ."
+    "graduation-pic graduation-info";
+  grid-gap: 40px;
+  max-width: 630px;
+  margin: 0 auto
+}
+
+.graduation {
+  grid-area: graduation-heading;
+}
+
+.grid-3-picture {
+  grid-area: graduation-pic;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.paragraph3 {
+    grid-area: graduation-info;
+}
+
+.grid-4-container {
+  display: grid;
+  grid-template-areas:
+    "808s-and-heartbreak-heading ."
+    "808s-and-heartbreak-pic 808s-and-heartbreak-info";
+  grid-gap: 40px;
+  max-width: 630px;
+  margin: 0 auto
+}
+
+.heartbreak {
+  grid-area: 808s-and-heartbreak-heading;
+}
+
+.grid-4-picture {
+  grid-area: 808s-and-heartbreak-pic;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.paragraph4 {
+    grid-area: 808s-and-heartbreak-info;
+}
+
+.grid-5-container {
+  display: grid;
+  grid-template-areas:
+    "my-beautiful-dark-twisted-fantasy-heading ."
+    "my-beautiful-dark-twisted-fantasy-pic my-beautiful-dark-twisted-fantasy-info";
+  grid-gap: 40px;
+  max-width: 630px;
+  margin: 0 auto
+}
+
+.my-beautiful-dark-twisted-fantasy {
+  grid-area: my-beautiful-dark-twisted-fantasy-heading;
+}
+
+.grid-5-picture {
+  grid-area: my-beautiful-dark-twisted-fantasy-pic;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.paragraph5 {
+    grid-area: my-beautiful-dark-twisted-fantasy-info;
+}
+
+.grid-6-container {
+  display: grid;
+  grid-template-areas:
+    "watch-the-throne-heading ."
+    "watch-the-throne-pic watch-the-throne-info";
+  grid-gap: 40px;
+  max-width: 630px;
+  margin: 0 auto
+}
+
+.watch-the-throne {
+  grid-area: watch-the-throne-heading;
+}
+
+.grid-6-picture {
+  grid-area: watch-the-throne-pic;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.paragraph6 {
+    grid-area: watch-the-throne-info;
+}
+
+.grid-7-container {
+  display: grid;
+  grid-template-areas:
+    "yeezus-heading ."
+    "yeezus-pic yeezus-info";
+  grid-gap: 40px;
+  max-width: 630px;
+  margin: 0 auto
+}
+
+.yeezus {
+  grid-area: yeezus-heading;
+}
+
+.grid-7-picture {
+  grid-area: yeezus-pic;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.paragraph7 {
+    grid-area: yeezus-info;
+}
+
+.grid-8-container {
+  display: grid;
+  grid-template-areas:
+    "the-life-of-pablo-heading ."
+    "the-life-of-pablo-pic the-life-of-pablo-info";
+  grid-gap: 40px;
+  max-width: 630px;
+  margin: 0 auto
+}
+
+.the-life-of-pablo {
+  grid-area: the-life-pablo-heading;
+}
+
+.grid-8-picture {
+  grid-area: the-life-pablo-pic;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.paragraph8 {
+    grid-area: the-life-of-pablo-info;
+}
+
+.grid-9-container {
+  display: grid;
+  grid-template-areas:
+    "ye-heading ."
+    "ye-pic ye-info";
+  grid-gap: 40px;
+  max-width: 630px;
+  margin: 0 auto
+}
+
+.ye {
+  grid-area: ye-heading;
+}
+
+.grid-9-picture {
+  grid-area: ye-pic;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.paragraph9 {
+    grid-area: ye-info;
+}
