@@ -1,0 +1,55 @@
+html,body {
+  /* Please don't use black backgrounds */
+  background-color: white;
+  color: black; /* #FFF or #FFFFFF */
+  font-family: 'Playfair Display', serif;
+  line-height: 1.5;
+}
+
+/* select the section with id="centered" */
+section#centered, #centered {
+  /* set the width of this selection to be 600px */
+  width: 1200px;
+  /* set the margin to be 0 on the top and bottom, and auto on left & right */
+  margin: 0 auto;
+  /* this means the same as above */
+  /* margin: 0 auto 0 auto; */
+  /* this means the same as the previous two days of setting margin */
+  /* margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto; */
+
+  /* set the border to be 1px of solid Pantone Warm Red C */
+  border: 5px solid #f9423a;
+}
+
+span#transforming, #transforming {
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Karla', sans-serif;
+  /* make the heading go on the right */
+  /* display: inline-block;
+  float: right; */
+}
+
+p {
+  /* If you use a percentage for any kind of sizing, 100% is the default text size for your browser which is usually 16-18px */
+  font-size: 150%;
+  font-weight: 100;
+  width: 400px;
+  /* make the paragraph stay on the left */
+  /* display: inline-block;
+  float: left; */
+
+  text-align: justify;
+}
+
+/* you can use the font-weight property to modify how bold your bolded sections are */
+strong, b {
+  font-weight: 900;
+}

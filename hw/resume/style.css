@@ -27,3 +27,28 @@ table {
   border: solid;
   border width: 3px;
 }
+
+@media only screen and (min-width: 900px) {
+  and max-width: 700px) {
+    /* style the screen when it is between 600 and 699 pixels wide */
+    body, main, h1 {
+    background-color: black
+    color: black;
+    border: 0px;
+  }
+
+  /*
+
+  In math, in algebra you did inequalities
+
+  >, <, =
+
+  max-width ==> check the width, and do [XXXX]
+  if width < max-width value
+
+  min-width ==> check the width and do [YYYY]
+  if width > min-width value
+
+  min-width & max-width ==> check the width, and do [ZZZZ] if min-width < width < mac-width
+
+  */
