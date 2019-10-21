@@ -5,8 +5,40 @@
   }
 }
 
+h1 {
+  font-family: Courier, monospace;
+  text-align: center;
+}
+
+h2 {
+  font-family: Courier, monospace;
+}
+
+h3 {
+  font-family: Courier, monospace;
+}
+
 nav a {
-    display: inline-block;
+    dispay: inline-block;
+    font-family: Courier, monospace;
+
+}
+
+nav {
+  margin:0;
+  text-align:center;
+}
+
+.kanyepic {
+  max-height: 200px;
+  max-width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+p {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 }
 
 .grid-1-container {
@@ -16,7 +48,7 @@ nav a {
     "the-college-dropout-pic the-college-dropout-info";
   grid-gap: 40px;
   max-width: 630px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .the-college-dropout {
@@ -25,8 +57,8 @@ nav a {
 
 .grid-1-picture {
   grid-area: the-college-dropout-pic;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .paragraph1 {
@@ -40,7 +72,7 @@ nav a {
     "late-registration-pic late-registration-info";
   grid-gap: 40px;
   max-width: 630px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .late-registration {
@@ -49,8 +81,8 @@ nav a {
 
 .grid-2-picture {
   grid-area: late-registration-pic;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .paragraph2 {
@@ -64,7 +96,7 @@ nav a {
     "graduation-pic graduation-info";
   grid-gap: 40px;
   max-width: 630px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .graduation {
@@ -73,8 +105,8 @@ nav a {
 
 .grid-3-picture {
   grid-area: graduation-pic;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .paragraph3 {
@@ -84,25 +116,25 @@ nav a {
 .grid-4-container {
   display: grid;
   grid-template-areas:
-    "808s-and-heartbreak-heading ."
-    "808s-and-heartbreak-pic 808s-and-heartbreak-info";
+    "heartbreak-heading ."
+    "heartbreak-pic heartbreak-info";
   grid-gap: 40px;
   max-width: 630px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .heartbreak {
-  grid-area: 808s-and-heartbreak-heading;
+  grid-area: heartbreak-heading;
 }
 
 .grid-4-picture {
-  grid-area: 808s-and-heartbreak-pic;
-  max-width: 100px;
-  max-height: 100px;
+  grid-area: heartbreak-pic;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .paragraph4 {
-    grid-area: 808s-and-heartbreak-info;
+    grid-area: heartbreak-info;
 }
 
 .grid-5-container {
@@ -112,7 +144,7 @@ nav a {
     "my-beautiful-dark-twisted-fantasy-pic my-beautiful-dark-twisted-fantasy-info";
   grid-gap: 40px;
   max-width: 630px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .my-beautiful-dark-twisted-fantasy {
@@ -121,8 +153,8 @@ nav a {
 
 .grid-5-picture {
   grid-area: my-beautiful-dark-twisted-fantasy-pic;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .paragraph5 {
@@ -136,7 +168,7 @@ nav a {
     "watch-the-throne-pic watch-the-throne-info";
   grid-gap: 40px;
   max-width: 630px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .watch-the-throne {
@@ -145,8 +177,8 @@ nav a {
 
 .grid-6-picture {
   grid-area: watch-the-throne-pic;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .paragraph6 {
@@ -160,7 +192,7 @@ nav a {
     "yeezus-pic yeezus-info";
   grid-gap: 40px;
   max-width: 630px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .yeezus {
@@ -169,8 +201,8 @@ nav a {
 
 .grid-7-picture {
   grid-area: yeezus-pic;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .paragraph7 {
@@ -180,25 +212,25 @@ nav a {
 .grid-8-container {
   display: grid;
   grid-template-areas:
-    "the-life-of-pablo-heading ."
-    "the-life-of-pablo-pic the-life-of-pablo-info";
+    "pablo-heading ."
+    "pablo-pic pablo-info";
   grid-gap: 40px;
   max-width: 630px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .the-life-of-pablo {
-  grid-area: the-life-pablo-heading;
+  grid-area: pablo-heading;
 }
 
 .grid-8-picture {
-  grid-area: the-life-pablo-pic;
-  max-width: 100px;
-  max-height: 100px;
+  grid-area: pablo-pic;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .paragraph8 {
-    grid-area: the-life-of-pablo-info;
+    grid-area: pablo-info;
 }
 
 .grid-9-container {
@@ -208,7 +240,7 @@ nav a {
     "ye-pic ye-info";
   grid-gap: 40px;
   max-width: 630px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .ye {
@@ -217,10 +249,130 @@ nav a {
 
 .grid-9-picture {
   grid-area: ye-pic;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .paragraph9 {
     grid-area: ye-info;
+}
+
+.grid-10-container {
+  dispay: grid;
+  grid-template-areas:
+    "school-spirit-tour-heading ."
+    "school-spirit-tour-info"
+  grid-gap: 40px;
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.school-spirit-tour {
+  grid-area: school-spirit-tour-heading;
+}
+
+.paragraph10 {
+  grid-area: school-spirit-tour-info;
+}
+
+.grid-11-container {
+  dispay: grid;
+  grid-template-areas:
+    "touch-the-sky-tour-heading ."
+    "touch-the-sky-tour-info"
+  grid-gap: 40px;
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.touch-the-sky-tour {
+  grid-area: touch-the-sky-tour-heading;
+}
+
+.paragraph11 {
+  grid-area: touch-the-sky-tour-info;
+}
+
+.grid-12-container {
+  dispay: grid;
+  grid-template-areas:
+    "glow-in-the-dark-tour-heading ."
+    "glow-in-the-dark-tour-info"
+  grid-gap: 40px;
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.glow-in-the-dark-tour {
+  grid-area: glow-in-the-dark-tour-heading;
+}
+
+.paragraph12 {
+  grid-area: glow-in-the-dark-tour-info;
+}
+
+.grid-13-container {
+  dispay: grid;
+  grid-template-areas:
+    "watch-the-throne-tour-heading ."
+    "watch-the-throne-tour-info"
+  grid-gap: 40px;
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.watch-the-throne-tour {
+  grid-area: watch-the-throne-tour-heading;
+}
+
+.paragraph13 {
+  grid-area: watch-the-throne-tour-info;
+}
+
+.grid-14-container {
+  dispay: grid;
+  grid-template-areas:
+    "yeezus-tour-heading ."
+    "yeezus-tour-info"
+  grid-gap: 40px;
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.yeezus-tour {
+  grid-area: yeezus-tour-heading;
+}
+
+.paragraph14 {
+  grid-area: yeezus-tour-info;
+}
+
+.grid-15-container {
+  dispay: grid;
+  grid-template-areas:
+    "saint-pablo-tour-heading ."
+    "saint-pablo-tour-info"
+  grid-gap: 40px;
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.saint-pablo-tour {
+  grid-area: saint-pablo-tour-heading;
+}
+
+.paragraph15 {
+  grid-area: saint-pablo-tour-info;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
