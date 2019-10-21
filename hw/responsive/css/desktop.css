@@ -12,6 +12,7 @@ h1 {
 
 h2 {
   font-family: Courier, monospace;
+  text-align: center;
 }
 
 h3 {
@@ -37,6 +38,7 @@ nav {
   margin-right: auto;
   width: 50%;
 }
+
 p {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 }
