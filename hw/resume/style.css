@@ -1,54 +1,47 @@
 a:link {
   text-decoration: none;
-  font-weight:     bold;
-  color:           blue;
+  font-weight: bold;
+  color: blue;
 }
 
 a:visited {
   text-decoration: none;
-  font-weight:     bold;
-  color:           red
+  font-weight: bold;
+  color: red;
 }
 
 a:hover {
   text-decoration: underline;
-  font-weight:     bold;
-  color:            black;
+  font-weight: bold;
+  color: black;
 }
 
-#Header {
+.Header {
   background-color: lightblue;
   font-family: Optima, sans-serif;
   padding: 10px;
   text-align: center;
 }
 
-table {
-  border: solid;
-  border width: 3px;
+.name {
+  font-family: "Pacifico", cursive;
 }
 
-@media only screen and (min-width: 900px) {
-  and max-width: 700px) {
-    /* style the screen when it is between 600 and 699 pixels wide */
-    body, main, h1 {
-    background-color: black
-    color: black;
-    border: 0px;
-  }
+#address {
+  font-family: "Poppins", sans-serif;
+}
+#Intro {
+  font-family: "Nanum Gothic", sans-serif;
+}
 
-  /*
+#cherokee {
+  text-decoration: underline;
+}
 
-  In math, in algebra you did inequalities
-
-  >, <, =
-
-  max-width ==> check the width, and do [XXXX]
-  if width < max-width value
-
-  min-width ==> check the width and do [YYYY]
-  if width > min-width value
-
-  min-width & max-width ==> check the width, and do [ZZZZ] if min-width < width < mac-width
-
-  */
+#miami {
+  text-decoration: underline dotted;
+}
+table {
+  border: solid;
+  borderwidth: 3px;
+}
