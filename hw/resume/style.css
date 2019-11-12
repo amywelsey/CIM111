@@ -41,6 +41,15 @@ a:hover {
 #miami {
   text-decoration: underline dotted;
 }
+
+#table {
+  text-decoration: underline;
+}
+
+#table2 {
+  text-decoration: underline;
+}
+
 table {
   border: solid;
   border-width: 3px;
