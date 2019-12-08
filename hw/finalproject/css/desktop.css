@@ -42,23 +42,29 @@ header li {
 header li a {
   color: black;
   text-decoration: none;
+  font-family: "Bungee", cursive;
 }
 
 h1 {
   font-family: "Bungee", cursive;
   color: white;
-  margin: 40px;
+  text-align: center;
 }
 
 h2 {
+  font-family: "Bungee", cursive;
   background: white;
   color: black;
+}
+
+h3 {
+  font-family: "Bungee", cursive;
 }
 
 .paragraph {
   color: black;
   background: white;
-  font-family: sans-serif;
+  font-family: "Abel", sans-serif;
 }
 
 footer {
@@ -66,4 +72,59 @@ footer {
   text-align: center;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Bungee&display=swap");
+p {
+  font-family: "Abel", sans-serif;
+}
+
+a {
+  font-family: "Bungee", cursive;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.sports-grid {
+  height: 90vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 20px 20px;
+}
+.cell {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 4rem;
+}
+.cell-1 {
+  background-image: url("images/yankees.jpg");
+  background-size: 500px;
+}
+.cell-2 {
+  background-image: url("images/mets.jpg");
+  background-size: 700px;
+}
+.cell-3 {
+  background-image: url("images/jets.jpg");
+  background-size: 700px;
+}
+.cell-4 {
+  background-image: url("images/knicks.jpg");
+  background-size: 700px;
+}
+.cell-5 {
+  background-image: url("images/rangers.jpg");
+  background-size: 700px;
+}
+.cell-6 {
+  background-image: url("images/nets.jpg");
+  background-size: 700px;
+}
+.cell-7 {
+  background-image: url("images/giants.jpg");
+  background-size: 700px;
+}
