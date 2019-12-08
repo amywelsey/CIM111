@@ -45,8 +45,9 @@ header li a {
 }
 
 h1 {
-  font-family: sans-serif;
+  font-family: "Bungee", cursive;
   color: white;
+  margin: 40px;
 }
 
 h2 {
@@ -62,4 +63,7 @@ h2 {
 
 footer {
   color: white;
+  text-align: center;
 }
+
+@import url("https://fonts.googleapis.com/css?family=Bungee&display=swap");
