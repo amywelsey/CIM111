@@ -1,0 +1,482 @@
+@media only screen and (max-width: 800px) {
+}
+.nyclogo {
+  max-height: 80px;
+  max-width: 200px;
+  margin-left: 40px;
+}
+
+body {
+  margin: 2%, 4%;
+  height: 125vh;
+  background-size: cover;
+  font-family: sans-serif;
+  margin-top: 80px;
+  padding: 30px;
+}
+
+main {
+  color: black;
+  background: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 10px;
+}
+
+header li a {
+  color: black;
+  text-decoration: none;
+  font-family: "Bungee", cursive;
+}
+
+h1 {
+  font-family: "Bungee", cursive;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Bungee", cursive;
+  background: white;
+  color: black;
+}
+
+h3 {
+  font-family: "Bungee", cursive;
+}
+
+.paragraph {
+  color: black;
+  background: white;
+  font-family: "Abel", sans-serif;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: "Abel", sans-serif;
+}
+
+a {
+  font-family: "Bungee", cursive;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.sports-grid {
+  height: 90vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 20px 20px;
+}
+.cell {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 4rem;
+}
+.cell-1 {
+  background-image: url("images/yankees.jpg");
+  background-size: 500px;
+}
+.cell-2 {
+  background-image: url("images/mets.jpg");
+  background-size: 700px;
+}
+.cell-3 {
+  background-image: url("images/jets.jpg");
+  background-size: 700px;
+}
+.cell-4 {
+  background-image: url("images/knicks.jpg");
+  background-size: 700px;
+}
+.cell-5 {
+  background-image: url("images/rangers.jpg");
+  background-size: 700px;
+}
+
+.cell-6 {
+  background-image: url("images/nets.jpg");
+  background-size: 700px;
+}
+
+.cell-7 {
+  background-image: url("images/giants.jpg");
+  background-size: 700px;
+}
+
+.video {
+  align-items: center;
+}
+
+.shopping-grid {
+  height: 90vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 20px 20px;
+}
+
+.macys {
+  background-image: url("images/macys.jpg");
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 500px;
+}
+
+.adidas {
+  background-image: url("images/adidas.jpg");
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 500px;
+}
+
+.nike {
+  background-image: url("images/nike.jpg");
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 500px;
+}
+
+.bergdorf {
+  background-image: url("images/bergdorf.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 500px;
+}
+
+.hudson {
+  background-image: url("images/hudson.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 500px;
+}
+
+.saks {
+  background-image: url("images/saks.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 500px;
+}
+
+.dining-grid {
+  height: 90vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 20px 20px;
+}
+
+.bernardin {
+  background-image: url("images/bernardin.png");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 370px;
+}
+
+.carmines {
+  background-image: url("images/carmines.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 400px;
+}
+
+.mercer {
+  background-image: url("images/mercer.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 400px;
+}
+
+.tao {
+  background-image: url("images/tao.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 400px;
+}
+
+.catch {
+  background-image: url("images/catch.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 372px;
+}
+
+.eataly {
+  background-image: url("images/eataly.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 380px;
+}
+
+.broadway-grid {
+  height: 90vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 20px 20px;
+}
+
+.wicked {
+  background-image: url("images/wicked.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 380px;
+}
+
+.chicago {
+  background-image: url("images/chicago.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 380px;
+}
+
+.phantom {
+  background-image: url("images/phantom.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 380px;
+  background-color: blue;
+}
+
+.lion {
+  background-image: url("images/lion.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 380px;
+}
+
+.evan {
+  background-image: url("images/evan.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 380px;
+}
+
+.aladdin {
+  background-image: url("images/aladdin.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 380px;
+}
+
+.attractions-grid {
+  height: 90vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 20px 20px;
+}
+
+.empire {
+  background-image: url("images/empirestate.jpg");
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 370px;
+}
+
+.met {
+  background-image: url("images/met.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 372px;
+}
+
+.memorial {
+  background-image: url("images/911.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 500px;
+}
+
+.oneworld {
+  background-image: url("images/oneworld.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 500px;
+}
+
+.brooklyn {
+  background-image: url("images/bridge.jpg");
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 500px;
+}
+
+.grand {
+  background-image: url("images/grandcentral.jpg");
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 500px;
+}
+
+.hotel-grid {
+  height: 90vh;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 20px 20px;
+}
+
+.plaza {
+  background-image: url("images/plaza.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 370px;
+}
+
+.peninsula {
+  background-image: url("images/peninsula.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 373px;
+}
+
+.mandarin {
+  background-image: url("images/mandarin.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 400px;
+}
+
+.quin {
+  background-image: url("images/quin.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 470px;
+}
+
+.edition {
+  background-image: url("images/edition.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 400px;
+}
+
+.pierre {
+  background-image: url("images/thepierre.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 400px;
+}
+
+.trump {
+  background-image: url("images/trump.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 400px;
+}
+
+.whitby {
+  background-image: url("images/whitby.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 350px;
+}
+
+.loews {
+  background-image: url("images/loews.jpg");
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  background-size: 400px;
+}
